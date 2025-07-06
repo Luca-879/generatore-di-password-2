@@ -24,7 +24,7 @@ Per eseguire questo progetto in locale, segui questi passaggi:
 
 1. **Clona il repository:**
    ```sh
-   git clone https://github.com/tuo-username/password-generator.git
+   git clone https://github.com/Luca-879/generatore-di-password-2.git
    cd password-generator
    ```
 
@@ -49,8 +49,8 @@ Per eseguire questo progetto in locale, segui questi passaggi:
 
 ## Contributi
 
-I contributi sono benvenuti! Se hai suggerimenti o miglioramenti, sentiti libero di aprire una issue o una pull request.
+I contributi sono i benvenuti! Se vuoi contribuire a questo progetto, per favore apri una issue o una pull request.
 
 ## Licenza
 
-Questo progetto è distribuito sotto la licenza MIT. Vedi il file `LICENSE` per maggiori dettagli.
+Questo progetto è rilasciato sotto la licenza MIT. Vedi il file [LICENSE](LICENSE) per maggiori dettagli.
