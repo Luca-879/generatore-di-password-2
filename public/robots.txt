@@ -2,4 +2,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://password-generator-example.com/sitemap.xml
+Sitemap: https://generatore-di-password.vercel.app/sitemap.xml
