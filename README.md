@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Generatore di Password
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Questo è un generatore di password creato con React. L'applicazione consente agli utenti di generare password sicure e personalizzate, salvarle localmente e gestirle facilmente.
 
-## Available Scripts
+## Funzionalità
 
-In the project directory, you can run:
+- **Generazione di Password Personalizzata**: Scegli la lunghezza della password e includi o escludi maiuscole, minuscole, numeri e simboli.
+- **Indicatore di Sicurezza**: Un indicatore visivo mostra la forza della password generata.
+- **Salvataggio Locale**: Salva le password generate nel browser per un uso futuro.
+- **Gestione delle Password**: Visualizza, copia ed elimina le password salvate.
+- **Note Personalizzate**: Aggiungi note a ciascuna password salvata per ricordarne lo scopo.
+- **Notifiche**: Ricevi una notifica quando una password viene copiata negli appunti.
+- **Design Moderno**: Interfaccia utente pulita e moderna costruita con Tailwind CSS.
 
-### `npm start`
+## Tecnologie Utilizzate
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Password Strength Bar](https://www.npmjs.com/package/react-password-strength-bar)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installazione e Avvio
 
-### `npm test`
+Per eseguire questo progetto in locale, segui questi passaggi:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clona il repository:**
+   ```sh
+   git clone https://github.com/tuo-username/password-generator.git
+   cd password-generator
+   ```
 
-### `npm run build`
+2. **Installa le dipendenze:**
+   ```sh
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Avvia il server di sviluppo:**
+   ```sh
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   Apri [http://localhost:3000](http://localhost:3000) per visualizzare l'applicazione nel browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Script Disponibili
 
-### `npm run eject`
+- `npm start`: Avvia l'app in modalità di sviluppo.
+- `npm test`: Esegue i test in modalità interattiva.
+- `npm run build`: Crea la build di produzione dell'app.
+- `npm run eject`: Rimuove le dipendenze di build e copia i file di configurazione nel progetto.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributi
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I contributi sono benvenuti! Se hai suggerimenti o miglioramenti, sentiti libero di aprire una issue o una pull request.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Licenza
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Questo progetto è distribuito sotto la licenza MIT. Vedi il file `LICENSE` per maggiori dettagli.
